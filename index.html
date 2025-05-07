@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Busca CEP</title>
+</head>
+<body>
+    <main>
+        <h2>Busca CEP</h2>
+        <p>Site para buscar endereços através do CEP.</p>
+        <form>
+            <label for="cep">CEP:</label>
+            <input type="number" id="cep" name="cep" required>
+            
+            <label for="logradouro">Logradouro:</label>
+            <input type="text" id="logradouro" name="logradouro" required>
+            
+            <label for="bairro">Bairro:</label>
+            <input type="text" id="bairro" name="bairro" required>
+            
+            <label for="cidade">Cidade:</label>
+            <input type="text" id="cidade" name="cidade" required>
+            
+            <label for="estado">Estado:</label>
+            <input type="text" id="estado" name="estado" required>
+            
+            <button type="submit" onclick="limpaForm()">Cadastrar</button>
+        </form>
+
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>

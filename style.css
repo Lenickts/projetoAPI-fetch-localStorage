@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Rubik+Wet+Paint&family=Shadows+Into+Light&family=Telex&display=swap&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+/* Josefin  / Rubik Wet / Telex / Gloria Hallelujah / Roboto Mono */
+
+:root{
+    --fonte-titulo: "Rubik Wet Paint", system-ui;
+    --fonte-main: 'Telex';
+    --fonte-sec:"Josefin Sans", sans-serif;
+    --fonte-robo: "Roboto Mono", monospace;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    background-color: #eee;
+    height: 100vh; /*usado para que o conteúdo centralize de acordo com o tamanho visivel da tela (vh = viewport height)*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2 solid grey; 
+    padding: 40px;
+    width: 500px;
+    border-radius: 10px;
+    font-family: var(--fonte-main);
+    background-color: lightgray;
+    
+}
+form{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    margin: 1cm;
+    gap: 3px;
+    width: 300px;
+    border-radius: 7px;
+}
+label{
+    margin-top: 10px;
+}
+input{
+    border: 1px solid rgb(218, 208, 208);
+    border-radius: 5px;
+    padding: 5px;
+    font-family: var(--fonte-robo);
+}
+button{
+
+    align-self: flex-end;
+    font-family: var(--fonte-robo);
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    padding: 10px 16px;
+    border-radius: 5px;
+}
+button:hover{
+    font-size: 20px;
+    background-color: #0056b3;
+}
+p{
+    margin-top: 15px;
+    font-family: var(--fonte-robo);
+    padding: 3px;
+}
